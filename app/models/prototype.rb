@@ -9,7 +9,4 @@ class Prototype < ApplicationRecord
   validates :catch_copy, presence: true
   validates :consept, presence: true
 
-  def was_attached?
-    self.image.attached?
-  end
 end
